@@ -1,27 +1,25 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace ThemesDemo
 {
     public partial class App : Application
     {
-        public App ()
+        public App()
         {
             InitializeComponent();
 
             MainPage = new MainPage();
         }
 
-        protected override void OnStart ()
+        protected override void OnStart()
         {
         }
 
-        protected override void OnSleep ()
+        protected override void OnSleep()
         {
         }
 
-        protected override void OnResume ()
+        protected override void OnResume()
         {
         }
     }
